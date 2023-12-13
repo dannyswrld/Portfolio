@@ -1,0 +1,22 @@
+header img {
+    height: 80px;
+}
+body {
+    height: 80vh;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/334/195/784/python-programming-minimalism-white-technology-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    margin-top: 80px;
+    padding: 30px;
+    font-family: sans-serif;
+}
+main {
+    color: white;
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
