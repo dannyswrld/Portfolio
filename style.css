@@ -20,3 +20,6 @@ header {
     right: 0;
     height: 80px;
 }
+header * {
+    display: inline;
+}
