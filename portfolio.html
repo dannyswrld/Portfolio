@@ -9,24 +9,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        header {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 25px;
+        }
+    </style>
+    <script src="script.js"></script>
 
-<body>
-
-
-<script src="script.js"></script>
-</body>
-<head>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 <header>
     <p>Danny's Portfolio</p>
     <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png">
-    <nav>
-        <ul>
+    <nav class="menu-area">
+        <ul class="dropdown-1">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
+                <ul class="dropdown-2">
+                    <li><a href="#">My Hobbies</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                </ul>
             <li><a href="#">My Journey</a></li>
             <li><a href="#">Experiences</a></li>
         </ul>
