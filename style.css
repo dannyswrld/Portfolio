@@ -11,10 +11,6 @@ body {
     margin-top: 80px;
     padding: 30px;
 }
-
-nav{
-
-}
 header {
     background-color: white;
     position: fixed;
@@ -92,4 +88,7 @@ header ul li a:hover ul {
 }
 .dropdown-1 ul li:hover .dropdown-2 ul li {
     display: block;
+}
+p {
+
 }
