@@ -5,7 +5,7 @@ header img {
 }
 body {
     height: 80vh;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/334/195/784/python-programming-minimalism-white-technology-hd-wallpaper-preview.jpg');
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwhite-background&psig=AOvVaw0oAXIoG26xKw-ecsDJ1F2t&ust=1706803296558000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCPjvX_h4QDFQAAAAAdAAAAABAD);
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
@@ -90,6 +90,32 @@ header ul nav a:hover ul {
 .dropdown-1 ul li:hover .dropdown-2 ul li {
     display: block;
 }
-h1 {
-
+.homepage {
+    background-image: url(images/test.svg);
+    position: fixed;
+    display: flex;
+    align-items: center;
 }
+footer {
+    display: block;
+    height: 30px;
+}
+.abtmepage {
+    background-image: url(images/about_me.svg);
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.journeypage {
+     background-image: url(images/test.svg);
+    background-size: 10px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+ }
+.experiences {
+      background-image: url(images/test.svg);
+      position: fixed;
+      display: flex;
+      align-items: center;
+  }
