@@ -108,7 +108,6 @@ footer {
 }
 .journeypage {
      background-image: url(images/test.svg);
-    background-size: 10px;
     position: fixed;
     display: flex;
     align-items: center;
