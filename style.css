@@ -113,8 +113,22 @@ footer {
     align-items: center;
  }
 .experiences {
-      background-image: url(images/test.svg);
+      background-image: url(images/experiences.svg);
       position: fixed;
       display: flex;
       align-items: center;
   }
+
+footer * {
+    display: flex;
+}
+
+footer nav2 {
+    margin: 15px;
+}
+
+footer nav2 a {
+    color: black;
+    text-decoration: none;
+    margin: 15px;
+}
